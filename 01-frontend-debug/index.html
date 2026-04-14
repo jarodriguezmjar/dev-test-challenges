@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>User Profile Loader</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; max-width: 500px; }
+    #result { margin-top: 1rem; padding: 1rem; border: 1px solid #ddd; border-radius: 4px; min-height: 60px; }
+    button { padding: 0.5rem 1.2rem; cursor: pointer; }
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <h2>User Profile Loader</h2>
+  <input type="text" id="userId" placeholder="Enter user ID (e.g. 1)" />
+  <button onclick="loadUser()">Load User</button>
+  <div id="result">Result will appear here...</div>
+
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
